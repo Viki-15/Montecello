@@ -1,0 +1,33 @@
+mixin contact
+    aside.contact
+        .contact__anchor(id="contact")
+        <div id="map"></div>
+        .container
+            .contact__wrapper
+                .contact__wrapper-element 
+                    .contact__title-element 
+                        .contact__title get in touch
+                .contact__info-wrapper
+                    .contact__link-wrapper
+                        a(href="javascrip:void(0)").d-flex 
+                            <i class="fas fa-map-marker-alt contact__icon"></i>  
+                            p.contact__adress 91 Nolan Extensions Suite 670
+                        a(href="tel:001 356-868-2454").d-flex  
+                            <i class="fas fa-phone-alt contact__icon"></i> 
+                            p.contact__tel +001 356-868-2454
+                        a(href="mailto:gahuy93@gmail.com").d-flex 
+                            <i class="fas fa-inbox contact__icon"></i> 
+                            p.contact__mail gahuy93@gmail.com
+                        time.d-flex
+                            <i class="far fa-clock contact__icon"></i> 
+                            p.contact__time From 07:05AM to 19:30PM
+                    form.contact__form 
+                        .contact__input-wrapper
+                            input.contact__input(type="text" id="name")
+                            label.contact__label(for="name") Name
+                        br
+                        .contact__input-wrapper
+                            input.contact__input(type="mail" id="mail")
+                            label.contact__label(for="mail") Email
+                        br
+                        button.contact__btn(type="submit") submit

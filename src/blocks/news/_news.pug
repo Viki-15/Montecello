@@ -1,0 +1,62 @@
+mixin news
+    article.news
+        .news__anchor(id="news")
+        .container
+            .news__wrapper-element 
+                .news__title-element 
+                    h2.news__title latest news
+        .news__slider.container
+            .swiper-container.swiper-container-second
+                .swiper-wrapper
+                    .swiper-slide
+                        .news__slide
+                            .news__img-wrapper
+                                img.news__img(src="./img/Img1.png", alt="bulding")
+                                .news__plus-wrapper
+                                    .news__plus
+                                        img(src="../dist/img/plus.svg", alt="plus")
+                            .news__txt-wrapper
+                                h3.news__sutitle See The Unmatched Beauty Of The Great. 
+                                p.news__text Free directories: directories are perfect for customers that are...
+                                .news__autor-wrapper.d-flex
+                                    img.news__autor-photo(src="./img/photos1.png", alt="autor")
+                                    .news__autor-wrapper
+                                        p.news__autor Isaac Dunn
+                                        time.news__date 09 Feb 2017
+                    .swiper-slide
+                        .news__slide
+                            .news__img-wrapper
+                                img.news__img(src="./img/Img2.png", alt="bulding")
+                                .news__plus-wrapper
+                                    .news__plus
+                                        img(src="../dist/img/plus.svg", alt="plus")                                
+                            .news__txt-wrapper
+                                h3.news__sutitle Effective Advertising Pointers.
+                                p.news__text Having a home based business is a wonderful asset to your life...
+                                .news__autor-wrapper.d-flex
+                                    img.news__autor-photo(src="./img/photos2.png", alt="autor")
+                                    .news__autor-wrapper
+                                        p.news__autor Dominic Freeman
+                                        time.news__date 24 Apr 2017
+                    .swiper-slide
+                        .news__slide
+                            .news__img-wrapper
+                                img.news__img(src="./img/Img3.png", alt="bulding")
+                                .news__plus-wrapper
+                                    .news__plus
+                                        img(src="../dist/img/plus.svg", alt="plus")
+                            .news__txt-wrapper
+                                h3.news__sutitle Hypnotize Yourself Into The Ghost.
+                                p.news__text There are many things that are important to catalog design....
+                                .news__autor-wrapper.d-flex
+                                    img.news__autor-photo(src="./img/photos3.png", alt="autor")
+                                    .news__autor-wrapper
+                                        p.news__autor Alice Ward
+                                        time.news__date 30 Dec 2017                        
+            .swiper-button-prev.news__btn-wrapper.d-flex.justify-content-center.align-items-center  
+                <i class="fas fa-angle-left news__btn-icon"></i>
+            .swiper-button-next.news__btn-wrapper.d-flex.justify-content-center.align-items-center
+                <i class="fas fa-angle-right news__btn-icon"></i>
+            .news__pagination-wrapper.d-flex.justify-content-center.align-items-center 
+                .swiper-pagination 
+            

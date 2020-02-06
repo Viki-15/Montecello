@@ -1,0 +1,32 @@
+mixin gallery
+    article.gallery
+        .container
+            .row  
+                .col-12  
+                    .gallery__wrapper-element 
+                        .gallery__title-element 
+                            h2.gallery__title gallery
+            .row    
+                .col-12.col-lg-6
+                    .gallery__wrapper
+                        img.gallery__icon(src="../dist/img/360.png", alt="alt")
+                        a(href="../dist/img/big scot.png" data-fancybox="gallery" data-caption="your advertisement could be here)")
+                            img.gallery__img--big(src="../dist/img/scott-webb-176434.png", alt="buidling")
+                .col-12.col-lg-6
+                    .row
+                        .col-12.col-lg-6
+                            a(href="../dist/img/big-23.png" data-fancybox="gallery" data-caption="your advertisement could be here)")
+                                img.gallery__img(src="../dist/img/photos-13323p6Bdc0uhr8Bq.png", alt="buidling")
+                        .col-12.col-lg-6
+                            a(href="../dist/img/big-13.png" data-fancybox="gallery" data-caption="your advertisement could be here)")
+                                img.gallery__img--second(src="../dist/img/echo-grid-156713.png", alt="buidling")
+                    .row
+                        .col-12.col-lg-6
+                            a(href="../dist/img/big-16.png" data-fancybox="gallery" data-caption="your advertisement could be here)")
+                                img.gallery__img(src="../dist/img/fuse-brussels-169216.png", alt="buidling")
+                        .col-12.col-lg-6
+                            a(href="../dist/img/big-63.png" data-fancybox="gallery" data-caption="your advertisement could be here)")
+                                img.gallery__img--second(src="../dist/img/tu-tram-pham-202263.png" alt="buidling")
+            .gallery__link(data-aos="fade-up").d-flex.justify-content-center
+                a.gallery__btn(href="") see more 
+            .gallery__some

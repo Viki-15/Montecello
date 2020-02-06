@@ -1,0 +1,27 @@
+mixin nav
+    header
+        .nav
+            .container
+                .nav__wrapper
+                    a(href="javascript:void(0)")
+                        img.nav__logo(src="../dist/img/Logo.svg", alt="logo")
+                    .nav__menu.burger-menu
+                        a(href="").burger-menu_button
+                            spun.burger-menu_lines
+                        ul.nav__list.burger-menu_nav
+                            a(href="#about").nav__item.d-flex
+                                li About Us
+                            a(href="#projects").nav__item.d-flex
+                                li projects
+                            a(href="#news").nav__item.d-flex
+                                li news
+                            a(href="#contact").nav__item.d-flex
+                                li contact
+                            .nav__icon-wrapper
+                                a(href="javascript:void(0)") 
+                                    .nav__icon <i class="fab fa-facebook-f"></i>
+                                a(href="javascript:void(0)")
+                                    .nav__icon <i class="fab fa-twitter"></i>
+                                a(href="javascript:void(0)")
+                                    .nav__icon <i class="fab fa-instagram"></i>
+                        .burger-menu_overlay 

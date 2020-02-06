@@ -1,0 +1,58 @@
+// insert fonts here
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i&display=swap');
+
+@font-face {
+    font-family: 'GothamBook';
+    src: url('../../dist/fonts/GothamBook.eot');
+    src: local('GothamBook'), url('../../dist/fonts/GothamBook.woff') format('woff'), url('../../dist/fonts/GothamBook.ttf') format('truetype');
+}
+
+/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_10146">Text with this font applied</p> */
+.fontsforweb_fontid_10146 {
+    font-family: 'GothamBook' !important;
+}
+
+/* Font downloaded from FontsForWeb.com */
+@font-face {
+    font-family: 'gothambold1';
+    src: url('../../dist/fonts/gothambold1.eot');
+    src: local('gothambold1'), url('../dist/fonts/gothambold1.woff') format('woff'), url('../../dist/fonts/gothambold1.ttf') format('truetype');
+}
+
+/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_5903">Text with this font applied</p> */
+.fontsforweb_fontid_5903 {
+    font-family: 'gothambold1' !important;
+}
+
+/* Font downloaded from FontsForWeb.com */
+@font-face {
+    font-family: 'GothamMedium';
+    src: url('../../dist/fonts/gotham-medium-webfont.woff2');
+    src: local('GothamMedium'), url('../../dist/fonts/gothambold1.woff') format('woff'), url('../../dist/fonts/Gotham\ Medium\ Regular.ttf') format('truetype');
+}
+
+h2 {
+    color: #2c4058;
+    font-family: 'GothamBook';
+    font-size: 44px;
+    font-weight: 500;
+    line-height: 22px;
+    text-transform: uppercase;
+}
+
+h3 {
+    color: #2c4058;
+    font-family: 'GothamBook';
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 22px;
+    text-transform: uppercase;
+}
+
+p {
+    color: #4b5562;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}

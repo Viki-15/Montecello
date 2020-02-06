@@ -1,0 +1,198 @@
+.projects {
+    background-color: #fff;
+    padding: 188px 0 136px 0;
+    overflow: hidden;
+
+
+    @media screen and (max-width: 1199px) {
+        overflow: hidden;
+        padding: 80px 0;
+    }
+
+    @media screen and (max-width: 991px) {
+        padding: 40px 0;
+        overflow: hidden;
+    }
+
+    &__title-block {
+        margin-bottom: 175px;
+        text-align: center;
+        font-weight: 700;
+        font-family: 'gothambold1';
+
+        @media screen and (max-width: 1199px) {
+            margin-bottom: 110px;
+        }
+
+
+        @media screen and (max-width: 991px) {
+            font-size: 36px;
+            text-align: center;
+        }
+    }
+
+    // &__img-wrapper {
+    //     position: relative;
+
+    // }
+    &__img {
+        position: relative;
+        z-index: 2;
+
+        @media screen and (max-width: 1199px) {
+            width: 100%;
+            height: auto;
+        }
+
+        @media screen and (max-width: 991px) {
+            margin-bottom: 30px;
+        }
+    }
+
+    &__img-first {
+        margin-bottom: 207px;
+
+        @media screen and (max-width: 991px) {
+            margin-bottom: 0;
+        }
+
+        &::before {
+            content: " ";
+            display: block;
+            position: absolute;
+            z-index: 1;
+            background-color: #55B7FF;
+            left: -200px;
+            top: -70px;
+            width: 585px;
+            height: 471px;
+
+            @media screen and (max-width: 991px) {
+                width: 110%;
+                height: 85%;
+                top: -10%;
+            }
+
+            @media screen and (max-width: 768px) {
+                width: 120%;
+            }
+
+            @media screen and (max-width: 575px) {
+                width: 140%;
+            }
+        }
+    }
+
+    &__img-second {
+        margin-left: 40px;
+
+        &::before {
+            content: " ";
+            display: block;
+            position: absolute;
+            z-index: 1;
+            right: -200px;
+            top: -70px;
+            width: 585px;
+            height: 470px;
+            background-color: #7E5AFF;
+
+            @media screen and (max-width: 991px) {
+                width: 110%;
+                height: 80%;
+                top: -10%;
+            }
+
+            @media screen and (max-width: 768px) {
+                width: 120%;
+            }
+
+            @media screen and (max-width: 575px) {
+                width: 130%;
+            }
+        }
+    }
+
+    &__subtitle {
+        font-weight: 300;
+        margin-top: 55px;
+        margin-bottom: 20px;
+
+        @media screen and (max-width: 1199px) {
+            margin-top: 0;
+        }
+
+        @media screen and (max-width: 991px) {
+            margin-top: 0;
+            text-align: center;
+        }
+    }
+
+    &__title {
+        font-weight: 700;
+        margin-bottom: 35px;
+        font-family: 'gothambold1';
+        font-size: 44px;
+
+        @media screen and (max-width: 1199px) {
+            font-size: 36px;
+        }
+
+        @media screen and (max-width: 991px) {
+            font-size: 26px;
+            text-align: center;
+            margin-bottom: 6px;
+        }
+
+        &--second {
+            font-family: 'gothambold1';
+            font-weight: 400;
+            margin-bottom: 36px;
+
+            @media screen and (max-width: 1199px) {
+                font-size: 36px;
+            }
+
+            @media screen and (max-width: 991px) {
+                font-size: 26px;
+                text-align: center;
+                margin-bottom: 6px;
+            }
+        }
+    }
+
+    &__txt {
+        letter-spacing: 0.007em;
+        margin-bottom: 48px;
+    }
+
+    &__btn {
+        margin-bottom: 65px;
+
+        @media screen and (max-width: 991px) {
+            margin-bottom: 25px;
+        }
+    }
+
+    &__location {
+        color: #2c4058;
+        font-size: 18px;
+        line-height: 30px;
+        font-family: 'OpenSans';
+        font-style: italic;
+
+        @media screen and (max-width: 991px) {
+            font-size: 16px;
+            margin-bottom: 80px;
+        }
+
+        @media screen and (max-width: 768px) {
+            margin-bottom: 50px;
+        }
+    }
+
+    &__icon {
+        margin-top: 6px;
+        margin-right: 6px;
+    }
+}

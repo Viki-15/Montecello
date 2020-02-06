@@ -1,0 +1,34 @@
+mixin projects
+    main
+        article.projects
+            .projects__anchor(id="projects")
+            .container
+                .row
+                    .col-12
+                        h2.projects__title-block what we do
+                .row
+                    .col-12.col-lg-6.col-xl-7
+                        .projects__img-first
+                            img.projects__img(src="../dist/img/joel-filipe-151697.png", alt="img")
+                    .col-12.col-lg-6.col-xl-5
+                        h3.projects__subtitle One World
+                        h2.projects__title Trade Center
+                        p.projects__txt Increasing prosperity in our lives can be accomplished by having the right frame of mind. The truth is, our thoughts are very powerful.
+                        .projects__btn
+                            +button
+                        .projects__location.d-flex
+                            <i class="fas fa-map-marker-alt projects__icon"></i>
+                            p New York City, United States - 1776 feet
+                .row
+                    .col-12.col-lg-6.order-lg-first.col-xl-5
+                        h3.projects__subtitle International
+                        h2.projects__title--second Commerce Centre
+                        p.projects__txt Successful businesses have many things in common, today we’ll look at the big ‘R’ of recognition and how a digital advertising network may help.
+                        .projects__btn
+                            +button
+                        .projects__location.d-flex
+                            <i class="fas fa-map-marker-alt projects__icon"></i>
+                            p  Hong Kong - 1588 Feet
+                    .col-12.order-first.col-lg-6.col-xl-7
+                        .projects__img-second
+                            img.projects__img(src="../dist/img/photos-1284iH4Hjf4mhNgW.png", alt="img")
